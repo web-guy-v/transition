@@ -1,0 +1,21 @@
+.hover-fadein {
+	transition: $default-transition;
+}
+@media(hover: hover) {
+	.hover-fadein:hover {
+		opacity: 0.3;
+	}
+}
+
+
+.hover-image {
+	overflow: hidden;
+}
+.hover-image img {
+	transition: $default-transition;
+}
+@media(hover: hover) {
+	.hover-image:hover img {
+		transform: scale(1.1);
+	}
+}
